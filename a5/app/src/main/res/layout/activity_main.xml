@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#696969">
+    <com.example.a5.Canvas
+        android:id="@+id/Canvas"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:background="#696969" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="#80696969">
+        <Button
+            android:id="@+id/reset"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/reset" />
+        <Button
+            android:id="@+id/info"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="950dp"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/info" />
+    </LinearLayout>
+
+
+
+    </LinearLayout>
